@@ -1,0 +1,186 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:black;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .App { 
+      background-color: #fff;
+      max-width: 992px;
+      margin: auto;
+
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #911c1c;
+      background-color:#701515;
+      padding: 10px 20px;
+      
+  }
+
+  .nav-menu li {
+      display: inline-block;
+      
+  }
+
+  .nav-link {
+      display: inline-block;
+      margin: 7px;
+      text-decoration: none;
+      color: floralwhite;
+  }
+
+  .nav-link:hover {
+      text-decoration: underline overline;
+      text-decoration-color: #e57878;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+     
+  }
+  .nav-link.active {
+      background-color: lightsalmon;
+  }
+
+  .logo-link {
+    color: floralwhite;
+    text-decoration: none;
+
+  }
+
+  .main-content{
+      margin: auto;
+      width: 90%;
+      padding-bottom: 50px;
+
+  }
+
+  .main-content h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .home-image {
+      width: 100%;
+      height:400px;
+      background-image: url('../images/home.jpg');
+      background-size: cover;
+      margin-bottom: 50px;
+      transition: all 0.3s ease-in-out;
+  }
+
+  .home-image:hover {
+      background-image: url(https://i.cbc.ca/1.5032124.1551089999!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/awards-oscars.jpg);
+      cursor: pointer;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+      
+
+  }
+
+  .thumbnail-container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 50px;
+      width: 100%;
+  }
+  .home-thumbnail-1,
+  .home-thumbnail-2,
+  .home-thumbnail-3 {
+      background-size: cover;
+      width: 230px;
+      height: 150px;
+      transition: all 0.3s ease-in-out;
+
+  }
+
+  .home-thumbnail-1:hover,
+  .home-thumbnail-2:hover,
+  .home-thumbnail-3:hover { 
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.3s ease-in-out;
+      
+  }
+
+  .home-thumbnail-1 {
+      background-image: url(https://www3.pictures.zimbio.com/mp/5lCz_rLcAoul.jpg);
+    
+  }
+  .home-thumbnail-2 {
+    background-image: url(https://www.india.com/wp-content/uploads/2019/02/alfonso-cuaron-getty-images.jpg);
+}
+.home-thumbnail-3 {
+    background-image: url(https://www.kiss925.com/wp-content/uploads/sites/59/2019/02/GettyImages-1127323662-e1551245337242-1024x576.jpg);
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
+
+.actors-container {  
+    display:inline-block;
+    text-align: center;
+}
+
+.actor-image{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+
+.actor-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.actor-image:hover {
+    cursor: pointer;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.film-image {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.film-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
