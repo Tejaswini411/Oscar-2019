@@ -14,11 +14,11 @@ class App extends Component {
   return (  
     <BrowserRouter>
       <div className="App">
-        <Navbar title = "Oscars 2020" /> 
+        <Navbar title = "OSCARS 2019" /> 
         {/* <Home title= "Oscar Winners"/> */}
         {/* <Route to="/" component={Home} /> to pass simple components without any props */}
 
-        <Route exact path="/" render={() => <Home title="Oscar Winners" />} />
+        <Route exact path="/" render={() => <Home title="OSCAR WINNERS" />} />
         <Route path="/actors" render={() => <ActorsContainer title="Best Actors" />} />
         <Route path="/actress/" render={() => <Actress title="Best Actress" />} />
         <Route path="/films" render={() => <Films title="Best Films" />} />
